@@ -1,0 +1,66 @@
+{
+  "name": "JinwooStream",
+  "short_name": "JinwooStream",
+  "description": "Streaming anime favoritmu tanpa gangguan",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#101010",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icons/apple-touch-icon-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "images/icons/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Daftar Anime - JinwooStream",
+      "description": "Lihat semua anime yang tersedia di JinwooStream",
+      "url": "/anime",
+      "icons": [
+        {
+          "src": "images/icons/icon-72x72.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Sedang Tayang - JinwooStream",
+      "description": "Anime yang sedang tayang saat ini",
+      "url": "/anime/ongoing",
+      "icons": [
+        {
+          "src": "images/icons/icon-72x72.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Film Layar Lebar - JinwooStream",
+      "description": "Anime movie pilihan",
+      "url": "/anime/movie",
+      "icons": [
+        {
+          "src": "images/icons/icon-72x72.png",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ]
+}
