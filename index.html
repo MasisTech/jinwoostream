@@ -1113,37 +1113,54 @@
               </nav>
             </div>
           </div>
-          <div class="col-lg-2">
-            <div class="header__right">
-              <!-- Search icon tetap -->
-              <a
-                class="search-switch"
-                href="#search"
-                onclick="event.preventDefault();"
-              >
-                <span class="icon_search"></span>
-              </a>
-              <!-- Gear icon hanya tampil di tablet/desktop -->
-              <a
-                class="desktop-only dropdown-toggle"
-                data-toggle="dropdown"
-                href="#"
-              >
-                <span class="icon_cog"></span>
-              </a>
-              <!-- Dropdown versi teks “Fitur Lainnya” untuk mobile -->
-              <div class="mobile-only">
-                <div class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-                    >Fitur Lainnya</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Pengaturan</a></li>
-                    <li><a href="#">Riwayat</a></li>
-                  </ul>
+          <div class="col-lg-2 position-relative">
+            <!-- Desktop/Tablet -->
+            <div class="header__right desktop-only">
+              <a class="search-switch" href="#search" onclick="event.preventDefault();"><span class="icon_search"></span></a>
+              <a href="#"><span class="icon_profile"></span></a>
+              <a href="#"><span class="icon_tools"></span></a>
+              
+              <!-- Dropdown gear -->
+              <div class="dropdown d-inline">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                  <span class="icon_cog"></span>
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Setelan</a>
+                  <a class="dropdown-item" href="#">Riwayat Tontonan</a>
+                  <a class="dropdown-item" href="#">Request Anime</a>
+                  <a class="dropdown-item" href="#">Aktivasi Jinwooskip</a>
+                  <a class="dropdown-item" href="#">Klaim Jinwoocredit</a>
                 </div>
               </div>
             </div>
+          
+            <!-- Mobile -->
+            <div class="mobile-only" id="mobile-feature-dropdown">
+              <div class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                  Fitur Lainnya
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Setelan</a>
+                  <a class="dropdown-item" href="#">Riwayat Tontonan</a>
+                  <a class="dropdown-item" href="#">Request Anime</a>
+                  <a class="dropdown-item" href="#">Aktivasi Jinwooskip</a>
+                  <a class="dropdown-item" href="#">Klaim Jinwoocredit</a>
+                </div>
+              </div>
+            </div>
+          </div>          
+          <div class="mobile-only" id="mobile-feature-dropdown" style="display: none;">
+              <div class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Fitur Lainnya</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#"><span class="icon_profile"></span> Profil</a>
+                      <a class="dropdown-item" href="#"><span class="icon_tools"></span> Pengaturan</a>
+                      <!-- Tambahkan dropdown lain sesuai menu dari icon gear -->
+                  </div>
+              </div>
+          </div>          
           </div>
         </div>
         <div id="mobile-menu-wrap"></div>
