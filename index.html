@@ -23,7 +23,7 @@
     ></script>
     <script
       async="async"
-      src="https://v6.jinwoostream.run/assets/js/unmin/onesignal-scripts.js?v=4"
+      src="https://jinwoostream.netlify.app/assets/js/unmin/onesignal-scripts.js?v=4"
     ></script>
     <script
       async="async"
@@ -64,7 +64,7 @@
       content="JinwooStream - Portal Download dan Streaming Anime Subtitle Indonesia"
       property="og:title"
     />
-    <meta content="https://v6.jinwoostream.run" property="og:url" />
+    <meta content="https://jinwoostream.netlify.app" property="og:url" />
     <meta content="JinwooStream" property="og:site_name" />
     <meta
       content="https://www.facebook.com/JinwooStreamID"
@@ -82,7 +82,7 @@
     <title>
       JinwooStream - Portal Download dan Streaming Anime Subtitle Indonesia
     </title>
-    <link href="https://v6.jinwoostream.run" rel="canonical" />
+    <link href="https://jinwoostream.netlify.app" rel="canonical" />
     <!-- Google Font -->
     <style type="text/css">
       @font-face {
@@ -736,7 +736,7 @@
     <link href="assets/css/plyr.min.css" rel="stylesheet" />
     <link href="assets/css/style.min.css" rel="stylesheet" />
     <!-- Web Application Manifest -->
-    <link href="https://v6.jinwoostream.run/manifest.json" rel="manifest" />
+    <link href="https://jinwoostream.netlify.app/manifest.json" rel="manifest" />
     <!-- Chrome for Android theme color -->
     <meta content="#1dd1a1" name="theme-color" />
     <!-- Add to homescreen for Chrome on Android -->
@@ -829,129 +829,149 @@
       rel="apple-touch-icon"
       sizes="180x180"
     />
-  </head>
+  <link rel="stylesheet" href="assets/css/slicknav.css">
+</head>
   <body>
     <input id="appName" type="hidden" value="JinwooStream" />
-    <input id="appUrl" type="hidden" value="https://v6.jinwoostream.run" />
+    <input id="appUrl" type="hidden" value="https://jinwoostream.netlify.app" />
     <input id="isDesktop" type="hidden" value="1" />
     <input id="isHome" type="hidden" value="1" />
     <input
       id="dataCountUrl"
       method="GET"
       type="hidden"
-      value="https://v6.jinwoostream.run/misc/anime/data-count"
+      value="https://jinwoostream.netlify.app/misc/anime/data-count"
     />
     <input
       id="refreshTokenUrl"
       type="hidden"
-      value="https://v6.jinwoostream.run/misc/token/refresh-token"
+      value="https://jinwoostream.netlify.app/misc/token/refresh-token"
     />
     <input
       id="countPostsViewsRoute"
       type="hidden"
-      value="https://v6.jinwoostream.run/misc/post/count-views"
+      value="https://jinwoostream.netlify.app/misc/post/count-views"
     />
     <input
       id="getBannerRoute"
       type="hidden"
-      value="https://v6.jinwoostream.run/banner/get"
+      value="https://jinwoostream.netlify.app/banner/get"
     />
-    <input id="currentUrl" type="hidden" value="https://v6.jinwoostream.run" />
+    <input id="currentUrl" type="hidden" value="https://jinwoostream.netlify.app" />
     <input id="baseUrl" type="hidden" value="v6.jinwoostream.run" />
     <input
       id="purgeCommentListRoute"
       type="hidden"
-      value="https://v6.jinwoostream.run/comment/purge-list"
+      value="https://jinwoostream.netlify.app/comment/purge-list"
     />
     <!-- Page Preloder -->
     <div id="preloder">
       <div class="loader"></div>
     </div>
     <!-- Header Section Begin -->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="header__logo">
-                        <a href="https://jinwoostream.netlify.app/">
+    
+<!-- Header Section Begin -->
+
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="header__logo">
+                    <a href="https://jinwoostream.netlify.app/">
                         <img src="assets/img/logo-text.png" loading="lazy" decoding="async">
                     </a>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="header__nav">
-                        <nav class="header__menu mobile-menu">
-                            <ul>
-                                <li class="active"><a href="https://jinwoostream.netlify.app/">Beranda</a></li>
-                                <li class=""><a href="https://jinwoostream.netlify.app/properties/season/spring-2025?order_by=popular">Spring 2025</a></li>
-                                <li class=""><a href="https://jinwoostream.netlify.app/quick/upcoming?order_by=popular">Segera Tayang</a></li>
-                                <li class=""><a href="https://jinwoostream.netlify.app/anime?order_by=text">Daftar Anime</a>
-                                    <ul class="dropdown">
-                                        <li><a href="https://jinwoostream.netlify.app/quick/ongoing?order_by=text">Sedang Tayang</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/quick/finished?order_by=text">Selesai Tayang</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/quick/upcoming?order_by=text">Segera Tayang</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/quick/movie?order_by=text">Film Layar Lebar</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/quick/donghua?order_by=text">Donghua</a></li>
-                                    </ul>
-                                </li>
-                                <li class=""><a href="https://jinwoostream.netlify.app/properties">Daftar Properti</a>
-                                    <ul class="dropdown">
-                                        <li><a href="https://jinwoostream.netlify.app/properties/genre">Daftar Genre</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/properties/season">Daftar Musim</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/properties/studio">Daftar Studio</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/properties/type">Daftar Tipe</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/properties/quality">Daftar Kualitas</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/properties/source">Daftar Adaptasi</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/properties/country">Daftar Negara</a></li>
-                                    </ul>
-                                </li>
-                                <li class=""><a href="https://jinwoostream.netlify.app/schedule?scheduled_day=tuesday">Jadwal Rilis</a></li>
-                                <li class=""><a href="https://jinwoostream.netlify.app/support/faq">FAQ</a></li>
-                                <li><a href="#soc_medias" onclick="event.preventDefault();">Media Sosial</a>
-                                    <ul class="dropdown">
-                                        <li><a href="https://discord.com/invite/J55beAM" target="_blank" rel="noopener noreferrer">Server Discord</a></li>
-                                        <li><a href="https://shortku.in/jinwoonime/telegram" target="_blank" rel="noopener noreferrer">Channel & Grup Telegram</a></li>
-                                        <li><a href="https://shortku.in/jinwoonime/whatsapp" target="_blank" rel="noopener noreferrer">Channel & Grup WhatsApp</a></li>
-                                        <li><a href="https://facebook.com/JinwoonimeID" target="_blank" rel="noopener noreferrer">Fanpage Facebook</a></li>
-                                        <li><a href="https://instagram.com/jinwoonime.official" target="_blank" rel="noopener noreferrer">Akun Instagram</a></li>
-                                        <li><a href="https://x.com/JinwoonimeID" target="_blank" rel="noopener noreferrer">Akun Twitter</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#ex_links" onclick="event.preventDefault();">Tautan Eksternal</a>
-                                    <ul class="dropdown">
-                                        <li><a href="https://s.id/Zo5Mr" target="_blank" rel="noopener noreferrer">Shortku</a></li>
-                                        <li><a href="https://campsite.bio/jinwoonime" target="_blank" rel="noopener noreferrer">Campsite</a></li>
-                                        <li><a href="https://jinwoostream.netlify.app/support/faq/48" target="_blank" rel="noopener noreferrer">Pasang Iklan</a></li>
-                                        <li><a href="https://jinwooshop.net" target="_blank" rel="noopener noreferrer">Top Up Game & Voucher</a></li>
-                                        <li><a href="https://trakteer.id/jinwoonime" target="_blank" rel="noopener noreferrer">Donasi via Trakteer</a></li>
-                                        <li><a href="https://saweria.co/Jinwoonime" target="_blank" rel="noopener noreferrer">Donasi via Saweria</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="https://s.id/ERdz1" target="_blank" rel="noopener noreferrer">APK Jinwoonime</a></li>
-
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="header__right">
-                        <a href="#search" onclick="event.preventDefault();" class="search-switch"><span class="icon_search"></span></a>
-                        <a id="settingButton" style="cursor: pointer;"><i class="fa-sharp fa-solid fa-gear text-white setting-button"></i></a>
-                        <ul id="settingDropdown" class="dropdown__v2">
-                            <li><a href="https://jinwoostream.netlify.app/setting">Setelan</a></li>
-                            <li><a href="https://jinwoostream.netlify.app/user/history">Riwayat Tontonan</a></li>
-                            <li><a href="https://jinwoostream.netlify.app/user/request">Request Anime</a></li>
-                            <li><a href="https://jinwoostream.netlify.app/user/jinwooskip">Aktivasi Jinwooskip</a></li>
-                            <li><a href="https://jinwoostream.netlify.app/user/jinwoocredit">Klaim Jinwoocredit</a></li>
-                        </ul>
-
-                        <a href="https://jinwoostream.netlify.app/login"><i class="fa-solid fa-right-to-bracket text-white login-button"></i></span></a>
-                    </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"></div>
+            <div class="col-lg-8">
+                <div class="header__nav">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="https://jinwoostream.netlify.app/">Beranda</a></li>
+                            <li><a href="https://jinwoostream.netlify.app/properties/season/spring-2025?order_by=popular">Spring 2025</a></li>
+                            <li><a href="https://jinwoostream.netlify.app/quick/upcoming?order_by=popular">Segera Tayang</a></li>
+                            <li><a href="https://jinwoostream.netlify.app/anime?order_by=text">Daftar Anime</a>
+                                <ul class="dropdown">
+                                    <li><a href="https://jinwoostream.netlify.app/quick/ongoing?order_by=text">Sedang Tayang</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/quick/finished?order_by=text">Selesai Tayang</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/quick/upcoming?order_by=text">Segera Tayang</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/quick/movie?order_by=text">Film Layar Lebar</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/quick/donghua?order_by=text">Donghua</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://jinwoostream.netlify.app/properties">Daftar Properti</a>
+                                <ul class="dropdown">
+                                    <li><a href="https://jinwoostream.netlify.app/properties/genre">Daftar Genre</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/properties/season">Daftar Musim</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/properties/studio">Daftar Studio</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/properties/type">Daftar Tipe</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/properties/quality">Daftar Kualitas</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/properties/source">Daftar Adaptasi</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/properties/country">Daftar Negara</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://jinwoostream.netlify.app/schedule?scheduled_day=tuesday">Jadwal Rilis</a></li>
+                            <li><a href="https://jinwoostream.netlify.app/support/faq">FAQ</a></li>
+                            <li><a href="#soc_medias" onclick="event.preventDefault();">Media Sosial</a>
+                                <ul class="dropdown">
+                                    <li><a href="https://discord.com/invite/J55beAM" target="_blank" rel="noopener noreferrer">Server Discord</a></li>
+                                    <li><a href="https://t.me/kuramanime" target="_blank" rel="noopener noreferrer">Channel & Grup Telegram</a></li>
+                                    <li><a href="https://chat.whatsapp.com" target="_blank" rel="noopener noreferrer">Channel & Grup WhatsApp</a></li>
+                                    <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Fanpage Facebook</a></li>
+                                    <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Akun Instagram</a></li>
+                                    <li><a href="https://x.com" target="_blank" rel="noopener noreferrer">Akun Twitter</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#ex_links" onclick="event.preventDefault();">Tautan Eksternal</a>
+                                <ul class="dropdown">
+                                    <li><a href="https://s.id/Zo5Mr" target="_blank" rel="noopener noreferrer">Shortku</a></li>
+                                    <li><a href="https://campsite.bio" target="_blank" rel="noopener noreferrer">Campsite</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/iklan">Pasang Iklan</a></li>
+                                    <li><a href="https://kuramashop.net" target="_blank" rel="noopener noreferrer">Top Up Game & Voucher</a></li>
+                                    <li><a href="https://trakteer.id" target="_blank" rel="noopener noreferrer">Donasi via Trakteer</a></li>
+                                    <li><a href="https://saweria.co" target="_blank" rel="noopener noreferrer">Donasi via Saweria</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://jinwoostream.netlify.app/apk">APK JinwooStream</a></li>
+                            <li><a href="#settings" onclick="event.preventDefault();">Fitur Lainnya</a>
+                                <ul class="dropdown">
+                                    <li><a href="https://jinwoostream.netlify.app/setting">Setelan</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/user/history">Riwayat Tontonan</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/user/request">Request Anime</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/user/jinwooskip">Aktivasi Jinwooskip</a></li>
+                                    <li><a href="https://jinwoostream.netlify.app/user/jinwoocredit">Klaim Jinwoocredit</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="header__right">
+                    <a href="#search" onclick="event.preventDefault();" class="search-switch"><span class="icon_search"></span></a>
+
+<a id="settingButton" style="cursor: pointer;">
+  <i class="fa-sharp fa-solid fa-gear text-white setting-button"></i>
+</a>
+<ul id="settingDropdown" class="dropdown__v2">
+    <li><a href="https://jinwoostream.netlify.app/setting">Setelan</a></li>
+    <li><a href="https://jinwoostream.netlify.app/user/history">Riwayat Tontonan</a></li>
+    <li><a href="https://jinwoostream.netlify.app/user/request">Request Anime</a></li>
+    <li><a href="https://jinwoostream.netlify.app/user/jinwooskip">Aktivasi Jinwooskip</a></li>
+    <li><a href="https://jinwoostream.netlify.app/user/jinwoocredit">Klaim Jinwoocredit</a></li>
+</ul>
+
+                    <a href="https://jinwoostream.netlify.app/login"><i class="fa-solid fa-right-to-bracket text-white login-button"></i></a>
+                </div>
+            </div>
         </div>
-    </header>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
+
+<!-- Header End -->
+
     <!-- Header End -->
     <div id="headerBannerSection"></div>
     <!-- Breadcrumb Begin -->
@@ -1085,25 +1105,25 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/action"
+                    href="https://jinwoostream.netlify.app/properties/genre/action"
                     target="_self"
                   >
                     <div class="label">Action</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/adventure"
+                    href="https://jinwoostream.netlify.app/properties/genre/adventure"
                     target="_self"
                   >
                     <div class="label">Adventure</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/fantasy"
+                    href="https://jinwoostream.netlify.app/properties/genre/fantasy"
                     target="_self"
                   >
                     <div class="label">Fantasy</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/shounen"
+                    href="https://jinwoostream.netlify.app/properties/genre/shounen"
                     target="_self"
                   >
                     <div class="label">Shounen</div>
@@ -1114,7 +1134,7 @@
                     Quincy Yhwach, para Reaper yang tinggal di S...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/1959/bleach-sennen-kessen-hen-ketsubetsu-tan-Ujk0KLqDm"
+                    href="https://jinwoostream.netlify.app/anime/1959/bleach-sennen-kessen-hen-ketsubetsu-tan-Ujk0KLqDm"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1136,19 +1156,19 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/action"
+                    href="https://jinwoostream.netlify.app/properties/genre/action"
                     target="_self"
                   >
                     <div class="label">Action</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/fantasy"
+                    href="https://jinwoostream.netlify.app/properties/genre/fantasy"
                     target="_self"
                   >
                     <div class="label">Fantasy</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/supernatural"
+                    href="https://jinwoostream.netlify.app/properties/genre/supernatural"
                     target="_self"
                   >
                     <div class="label">Supernatural</div>
@@ -1159,7 +1179,7 @@
                     misterius: "Apakah Anda ingin tahu tentang a...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/1584/wuxian-shijie"
+                    href="https://jinwoostream.netlify.app/anime/1584/wuxian-shijie"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1181,19 +1201,19 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/action"
+                    href="https://jinwoostream.netlify.app/properties/genre/action"
                     target="_self"
                   >
                     <div class="label">Action</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/adventure"
+                    href="https://jinwoostream.netlify.app/properties/genre/adventure"
                     target="_self"
                   >
                     <div class="label">Adventure</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/fantasy"
+                    href="https://jinwoostream.netlify.app/properties/genre/fantasy"
                     target="_self"
                   >
                     <div class="label">Fantasy</div>
@@ -1204,7 +1224,7 @@
                     melayang di langit dan diperintah oleh ratu...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/1073/shironeko-project-zero-chronicle"
+                    href="https://jinwoostream.netlify.app/anime/1073/shironeko-project-zero-chronicle"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1226,13 +1246,13 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/fantasy"
+                    href="https://jinwoostream.netlify.app/properties/genre/fantasy"
                     target="_self"
                   >
                     <div class="label">Fantasy</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/strategy-game"
+                    href="https://jinwoostream.netlify.app/properties/genre/strategy-game"
                     target="_self"
                   >
                     <div class="label">Strategy Game</div>
@@ -1243,7 +1263,7 @@
                     dan ceritanya berlatar di Shadowverse Co...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/359/shadowverse-flame"
+                    href="https://jinwoostream.netlify.app/anime/359/shadowverse-flame"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1265,25 +1285,25 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/sports"
+                    href="https://jinwoostream.netlify.app/properties/genre/sports"
                     target="_self"
                   >
                     <div class="label">Sports</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/shounen"
+                    href="https://jinwoostream.netlify.app/properties/genre/shounen"
                     target="_self"
                   >
                     <div class="label">Shounen</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/school"
+                    href="https://jinwoostream.netlify.app/properties/genre/school"
                     target="_self"
                   >
                     <div class="label">School</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/team-sports"
+                    href="https://jinwoostream.netlify.app/properties/genre/team-sports"
                     target="_self"
                   >
                     <div class="label">Team Sports</div>
@@ -1294,7 +1314,7 @@
                     pitcher-catcher paling tangguh di bisbol s...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/2607/boukyaku-battery-tv"
+                    href="https://jinwoostream.netlify.app/anime/2607/boukyaku-battery-tv"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1316,31 +1336,31 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/action"
+                    href="https://jinwoostream.netlify.app/properties/genre/action"
                     target="_self"
                   >
                     <div class="label">Action</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/comedy"
+                    href="https://jinwoostream.netlify.app/properties/genre/comedy"
                     target="_self"
                   >
                     <div class="label">Comedy</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/fantasy"
+                    href="https://jinwoostream.netlify.app/properties/genre/fantasy"
                     target="_self"
                   >
                     <div class="label">Fantasy</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/isekai"
+                    href="https://jinwoostream.netlify.app/properties/genre/isekai"
                     target="_self"
                   >
                     <div class="label">Isekai</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/reincarnation"
+                    href="https://jinwoostream.netlify.app/properties/genre/reincarnation"
                     target="_self"
                   >
                     <div class="label">Reincarnation</div>
@@ -1351,7 +1371,7 @@
                     semakin dekat. Cid Kagenou dan Shadow Gard...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/2186/kage-no-jitsuryokusha-ni-naritakute-2nd-season-UWnx6Gpe7"
+                    href="https://jinwoostream.netlify.app/anime/2186/kage-no-jitsuryokusha-ni-naritakute-2nd-season-UWnx6Gpe7"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1373,13 +1393,13 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/action"
+                    href="https://jinwoostream.netlify.app/properties/genre/action"
                     target="_self"
                   >
                     <div class="label">Action</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/drama"
+                    href="https://jinwoostream.netlify.app/properties/genre/drama"
                     target="_self"
                   >
                     <div class="label">Drama</div>
@@ -1387,7 +1407,7 @@
                   <h2>Chang Jian Feng Yun</h2>
                   <p></p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/382/chang-jian-feng-yun"
+                    href="https://jinwoostream.netlify.app/anime/382/chang-jian-feng-yun"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1409,37 +1429,37 @@
               <div class="col-lg-6">
                 <div class="hero__text">
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/slice-of-life"
+                    href="https://jinwoostream.netlify.app/properties/genre/slice-of-life"
                     target="_self"
                   >
                     <div class="label">Slice of Life</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/supernatural"
+                    href="https://jinwoostream.netlify.app/properties/genre/supernatural"
                     target="_self"
                   >
                     <div class="label">Supernatural</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/seinen"
+                    href="https://jinwoostream.netlify.app/properties/genre/seinen"
                     target="_self"
                   >
                     <div class="label">Seinen</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/adult-cast"
+                    href="https://jinwoostream.netlify.app/properties/genre/adult-cast"
                     target="_self"
                   >
                     <div class="label">Adult Cast</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/iyashikei"
+                    href="https://jinwoostream.netlify.app/properties/genre/iyashikei"
                     target="_self"
                   >
                     <div class="label">Iyashikei</div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/properties/genre/pets"
+                    href="https://jinwoostream.netlify.app/properties/genre/pets"
                     target="_self"
                   >
                     <div class="label">Pets</div>
@@ -1450,7 +1470,7 @@
                     Hanako, penulis buku bergambar Hotaru Yuu...
                   </p>
                   <a
-                    href="https://v6.jinwoostream.run/anime/3190/kinoko-inu"
+                    href="https://jinwoostream.netlify.app/anime/3190/kinoko-inu"
                     target="_self"
                   >
                     <span class="hero__details__button"
@@ -1485,7 +1505,7 @@
                   <div class="btn__all">
                     <a
                       class="primary-btn"
-                      href="https://v6.jinwoostream.run/quick/ongoing?order_by=updated"
+                      href="https://jinwoostream.netlify.app/quick/ongoing?order_by=updated"
                       >Lihat Semua <span class="arrow_right"></span
                     ></a>
                   </div>
@@ -1495,7 +1515,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3508/witch-watch/episode/1"
+                      href="https://jinwoostream.netlify.app/anime/3508/witch-watch/episode/1"
                       target="_blank"
                     >
                       <div
@@ -1546,13 +1566,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -1560,7 +1580,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3508/witch-watch/episode/1"
+                          href="https://jinwoostream.netlify.app/anime/3508/witch-watch/episode/1"
                           target="_blank"
                           >Witch Watch</a
                         >
@@ -1571,7 +1591,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3580/devil-may-cry-2025-dub-jp/episode/8"
+                      href="https://jinwoostream.netlify.app/anime/3580/devil-may-cry-2025-dub-jp/episode/8"
                       target="_blank"
                     >
                       <div
@@ -1622,13 +1642,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -1636,7 +1656,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3580/devil-may-cry-2025-dub-jp/episode/8"
+                          href="https://jinwoostream.netlify.app/anime/3580/devil-may-cry-2025-dub-jp/episode/8"
                           target="_blank"
                           >Devil May Cry (2025) (Dub JP)</a
                         >
@@ -1647,7 +1667,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3526/uma-musume-cinderella-gray/episode/1"
+                      href="https://jinwoostream.netlify.app/anime/3526/uma-musume-cinderella-gray/episode/1"
                       target="_blank"
                     >
                       <div
@@ -1698,13 +1718,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -1712,7 +1732,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3526/uma-musume-cinderella-gray/episode/1"
+                          href="https://jinwoostream.netlify.app/anime/3526/uma-musume-cinderella-gray/episode/1"
                           target="_blank"
                           >Uma Musume: Cinderella Gray</a
                         >
@@ -1723,7 +1743,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3450/kimi-to-idol-precure/episode/9"
+                      href="https://jinwoostream.netlify.app/anime/3450/kimi-to-idol-precure/episode/9"
                       target="_blank"
                     >
                       <div
@@ -1774,13 +1794,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -1788,7 +1808,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3450/kimi-to-idol-precure/episode/9"
+                          href="https://jinwoostream.netlify.app/anime/3450/kimi-to-idol-precure/episode/9"
                           target="_blank"
                           >Kimi to Idol Precure♪</a
                         >
@@ -1799,7 +1819,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3573/tu-bian-yingxiong-x-dub-jp/episode/1"
+                      href="https://jinwoostream.netlify.app/anime/3573/tu-bian-yingxiong-x-dub-jp/episode/1"
                       target="_blank"
                     >
                       <div
@@ -1850,13 +1870,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/ONA"
+                          href="https://jinwoostream.netlify.app/properties/type/ONA"
                           target="_blank"
                         >
                           <li>ONA</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -1864,7 +1884,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3573/tu-bian-yingxiong-x-dub-jp/episode/1"
+                          href="https://jinwoostream.netlify.app/anime/3573/tu-bian-yingxiong-x-dub-jp/episode/1"
                           target="_blank"
                           >Tu Bian Yingxiong X (Dub JP)</a
                         >
@@ -1875,7 +1895,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3509/tu-bian-yingxiong-x/episode/1"
+                      href="https://jinwoostream.netlify.app/anime/3509/tu-bian-yingxiong-x/episode/1"
                       target="_blank"
                     >
                       <div
@@ -1926,13 +1946,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/ONA"
+                          href="https://jinwoostream.netlify.app/properties/type/ONA"
                           target="_blank"
                         >
                           <li>ONA</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -1940,7 +1960,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3509/tu-bian-yingxiong-x/episode/1"
+                          href="https://jinwoostream.netlify.app/anime/3509/tu-bian-yingxiong-x/episode/1"
                           target="_blank"
                           >Tu Bian Yingxiong X</a
                         >
@@ -1961,7 +1981,7 @@
                   <div class="btn__all">
                     <a
                       class="primary-btn"
-                      href="https://v6.jinwoostream.run/quick/finished?order_by=updated"
+                      href="https://jinwoostream.netlify.app/quick/finished?order_by=updated"
                       >Lihat Semua <span class="arrow_right"></span
                     ></a>
                   </div>
@@ -1971,7 +1991,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3576/devil-may-cry"
+                      href="https://jinwoostream.netlify.app/anime/3576/devil-may-cry"
                       target="_blank"
                     >
                       <div
@@ -2021,13 +2041,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2035,7 +2055,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3576/devil-may-cry"
+                          href="https://jinwoostream.netlify.app/anime/3576/devil-may-cry"
                           target="_blank"
                           >Devil May Cry</a
                         >
@@ -2046,7 +2066,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3572/tu-bian-yingxiong-leaf-dub-jp"
+                      href="https://jinwoostream.netlify.app/anime/3572/tu-bian-yingxiong-leaf-dub-jp"
                       target="_blank"
                     >
                       <div
@@ -2096,13 +2116,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/ONA"
+                          href="https://jinwoostream.netlify.app/properties/type/ONA"
                           target="_blank"
                         >
                           <li>ONA</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2110,7 +2130,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3572/tu-bian-yingxiong-leaf-dub-jp"
+                          href="https://jinwoostream.netlify.app/anime/3572/tu-bian-yingxiong-leaf-dub-jp"
                           target="_blank"
                           >Tu Bian Yingxiong Leaf (Dub JP)</a
                         >
@@ -2121,7 +2141,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3558/tu-bian-yingxiong-leaf"
+                      href="https://jinwoostream.netlify.app/anime/3558/tu-bian-yingxiong-leaf"
                       target="_blank"
                     >
                       <div
@@ -2171,13 +2191,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/ONA"
+                          href="https://jinwoostream.netlify.app/properties/type/ONA"
                           target="_blank"
                         >
                           <li>ONA</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -2185,7 +2205,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3558/tu-bian-yingxiong-leaf"
+                          href="https://jinwoostream.netlify.app/anime/3558/tu-bian-yingxiong-leaf"
                           target="_blank"
                           >Tu Bian Yingxiong Leaf</a
                         >
@@ -2196,7 +2216,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3571/tu-bian-yingxiong-baba-dub-jp"
+                      href="https://jinwoostream.netlify.app/anime/3571/tu-bian-yingxiong-baba-dub-jp"
                       target="_blank"
                     >
                       <div
@@ -2244,13 +2264,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/ONA"
+                          href="https://jinwoostream.netlify.app/properties/type/ONA"
                           target="_blank"
                         >
                           <li>ONA</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2258,7 +2278,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3571/tu-bian-yingxiong-baba-dub-jp"
+                          href="https://jinwoostream.netlify.app/anime/3571/tu-bian-yingxiong-baba-dub-jp"
                           target="_blank"
                           >Tu Bian Yingxiong Baba (Dub JP)</a
                         >
@@ -2269,7 +2289,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3559/tu-bian-yingxiong-baba"
+                      href="https://jinwoostream.netlify.app/anime/3559/tu-bian-yingxiong-baba"
                       target="_blank"
                     >
                       <div
@@ -2317,13 +2337,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/ONA"
+                          href="https://jinwoostream.netlify.app/properties/type/ONA"
                           target="_blank"
                         >
                           <li>ONA</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -2331,7 +2351,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3559/tu-bian-yingxiong-baba"
+                          href="https://jinwoostream.netlify.app/anime/3559/tu-bian-yingxiong-baba"
                           target="_blank"
                           >Tu Bian Yingxiong Baba</a
                         >
@@ -2342,7 +2362,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3391/around-40-otoko-no-isekai-tsuuhan"
+                      href="https://jinwoostream.netlify.app/anime/3391/around-40-otoko-no-isekai-tsuuhan"
                       target="_blank"
                     >
                       <div
@@ -2390,13 +2410,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -2404,7 +2424,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3391/around-40-otoko-no-isekai-tsuuhan"
+                          href="https://jinwoostream.netlify.app/anime/3391/around-40-otoko-no-isekai-tsuuhan"
                           target="_blank"
                           >Around 40 Otoko no Isekai Tsuuhan</a
                         >
@@ -2425,7 +2445,7 @@
                   <div class="btn__all">
                     <a
                       class="primary-btn"
-                      href="https://v6.jinwoostream.run/quick/movie?order_by=updated"
+                      href="https://jinwoostream.netlify.app/quick/movie?order_by=updated"
                       >Lihat Semua <span class="arrow_right"></span
                     ></a>
                   </div>
@@ -2435,7 +2455,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3567/uma-musume-pretty-derby-shin-jidai-no-tobira"
+                      href="https://jinwoostream.netlify.app/anime/3567/uma-musume-pretty-derby-shin-jidai-no-tobira"
                       target="_blank"
                     >
                       <div
@@ -2483,13 +2503,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/Movie"
+                          href="https://jinwoostream.netlify.app/properties/type/Movie"
                           target="_blank"
                         >
                           <li>Movie</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2497,7 +2517,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3567/uma-musume-pretty-derby-shin-jidai-no-tobira"
+                          href="https://jinwoostream.netlify.app/anime/3567/uma-musume-pretty-derby-shin-jidai-no-tobira"
                           target="_blank"
                           >Uma Musume: Pretty Derby - Shin Jidai no Tobira</a
                         >
@@ -2508,7 +2528,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3564/uma-musume-pretty-derby-road-to-the-top-movie"
+                      href="https://jinwoostream.netlify.app/anime/3564/uma-musume-pretty-derby-road-to-the-top-movie"
                       target="_blank"
                     >
                       <div
@@ -2556,13 +2576,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/Movie"
+                          href="https://jinwoostream.netlify.app/properties/type/Movie"
                           target="_blank"
                         >
                           <li>Movie</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2570,7 +2590,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3564/uma-musume-pretty-derby-road-to-the-top-movie"
+                          href="https://jinwoostream.netlify.app/anime/3564/uma-musume-pretty-derby-road-to-the-top-movie"
                           target="_blank"
                           >Uma Musume: Pretty Derby - Road to the Top (Movie)</a
                         >
@@ -2581,7 +2601,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3563/overlord-movie-3-sei-oukoku-hen"
+                      href="https://jinwoostream.netlify.app/anime/3563/overlord-movie-3-sei-oukoku-hen"
                       target="_blank"
                     >
                       <div
@@ -2629,13 +2649,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/Movie"
+                          href="https://jinwoostream.netlify.app/properties/type/Movie"
                           target="_blank"
                         >
                           <li>Movie</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -2643,7 +2663,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3563/overlord-movie-3-sei-oukoku-hen"
+                          href="https://jinwoostream.netlify.app/anime/3563/overlord-movie-3-sei-oukoku-hen"
                           target="_blank"
                           >Overlord Movie 3: Sei Oukoku-hen</a
                         >
@@ -2654,7 +2674,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3493/trapezium"
+                      href="https://jinwoostream.netlify.app/anime/3493/trapezium"
                       target="_blank"
                     >
                       <div
@@ -2702,13 +2722,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/Movie"
+                          href="https://jinwoostream.netlify.app/properties/type/Movie"
                           target="_blank"
                         >
                           <li>Movie</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2716,7 +2736,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3493/trapezium"
+                          href="https://jinwoostream.netlify.app/anime/3493/trapezium"
                           target="_blank"
                           >Trapezium</a
                         >
@@ -2727,7 +2747,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/2566/yi-ren-zhi-xia-xiu-tie-chong-xian"
+                      href="https://jinwoostream.netlify.app/anime/2566/yi-ren-zhi-xia-xiu-tie-chong-xian"
                       target="_blank"
                     >
                       <div
@@ -2775,13 +2795,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/Movie"
+                          href="https://jinwoostream.netlify.app/properties/type/Movie"
                           target="_blank"
                         >
                           <li>Movie</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -2789,7 +2809,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/2566/yi-ren-zhi-xia-xiu-tie-chong-xian"
+                          href="https://jinwoostream.netlify.app/anime/2566/yi-ren-zhi-xia-xiu-tie-chong-xian"
                           target="_blank"
                           >Yi Ren Zhi Xia: Xiu Tie Chong Xian</a
                         >
@@ -2800,7 +2820,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                   <div class="product__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3461/boku-no-hero-academia-the-movie-4-youre-next"
+                      href="https://jinwoostream.netlify.app/anime/3461/boku-no-hero-academia-the-movie-4-youre-next"
                       target="_blank"
                     >
                       <div
@@ -2848,13 +2868,13 @@
                     <div class="product__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/Movie"
+                          href="https://jinwoostream.netlify.app/properties/type/Movie"
                           target="_blank"
                         >
                           <li>Movie</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/BD"
+                          href="https://jinwoostream.netlify.app/properties/quality/BD"
                           target="_blank"
                         >
                           <li>BD</li>
@@ -2862,7 +2882,7 @@
                       </ul>
                       <h5>
                         <a
-                          href="https://v6.jinwoostream.run/anime/3461/boku-no-hero-academia-the-movie-4-youre-next"
+                          href="https://jinwoostream.netlify.app/anime/3461/boku-no-hero-academia-the-movie-4-youre-next"
                           target="_blank"
                           >Boku no Hero Academia the Movie 4: You're Next</a
                         >
@@ -2886,7 +2906,7 @@
                     <div class="btn__all__left">
                       <a
                         class="primary-btn"
-                        href="https://v6.jinwoostream.run/properties/season/spring-2025?order_by=most_viewed"
+                        href="https://jinwoostream.netlify.app/properties/season/spring-2025?order_by=most_viewed"
                         >Lihat Semua <span class="arrow_right"></span
                       ></a>
                     </div>
@@ -2894,7 +2914,7 @@
                 </div>
                 <div class="filter__gallery" id="topAnimesSection">
                   <a
-                    href="https://v6.jinwoostream.run/anime/3519/ore-wa-seikan-kokka-no-akutoku-ryoushu"
+                    href="https://jinwoostream.netlify.app/anime/3519/ore-wa-seikan-kokka-no-akutoku-ryoushu"
                     target="_blank"
                   >
                     <div
@@ -2923,7 +2943,7 @@
                     </div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru"
+                    href="https://jinwoostream.netlify.app/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru"
                     target="_blank"
                   >
                     <div
@@ -2952,7 +2972,7 @@
                     </div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/anime/3504/haite-kudasai-takamine-san"
+                    href="https://jinwoostream.netlify.app/anime/3504/haite-kudasai-takamine-san"
                     target="_blank"
                   >
                     <div
@@ -2981,7 +3001,7 @@
                     </div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/anime/3525/kanchigai-no-atelier-meister-eiyuu-party-no-moto-zatsuyougakari-ga-jitsu-wa-sentou-igai-ga-sss-rank-datta-to-iu-yoku-aru-hanashi"
+                    href="https://jinwoostream.netlify.app/anime/3525/kanchigai-no-atelier-meister-eiyuu-party-no-moto-zatsuyougakari-ga-jitsu-wa-sentou-igai-ga-sss-rank-datta-to-iu-yoku-aru-hanashi"
                     target="_blank"
                   >
                     <div
@@ -3012,7 +3032,7 @@
                     </div>
                   </a>
                   <a
-                    href="https://v6.jinwoostream.run/anime/3511/kijin-gentoushou"
+                    href="https://jinwoostream.netlify.app/anime/3511/kijin-gentoushou"
                     target="_blank"
                   >
                     <div
@@ -3049,7 +3069,7 @@
                 <div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3580/devil-may-cry-2025-dub-jp/episode/3"
+                      href="https://jinwoostream.netlify.app/anime/3580/devil-may-cry-2025-dub-jp/episode/3"
                       target="_blank"
                     >
                       <div
@@ -3060,13 +3080,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -3074,7 +3094,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/3580/devil-may-cry-2025-dub-jp/episode/3"
+                          href="https://jinwoostream.netlify.app/anime/3580/devil-may-cry-2025-dub-jp/episode/3"
                           target="_blank"
                         >
                           <h5>
@@ -3090,7 +3110,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/1906/otonari-ni-ginga/episode/1"
+                      href="https://jinwoostream.netlify.app/anime/1906/otonari-ni-ginga/episode/1"
                       target="_blank"
                     >
                       <div
@@ -3101,13 +3121,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3115,7 +3135,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/1906/otonari-ni-ginga/episode/1"
+                          href="https://jinwoostream.netlify.app/anime/1906/otonari-ni-ginga/episode/1"
                           target="_blank"
                         >
                           <h5>Otonari ni Ginga <i class="d-none"></i></h5>
@@ -3129,7 +3149,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3578/devil-may-cry-2025/episode/8"
+                      href="https://jinwoostream.netlify.app/anime/3578/devil-may-cry-2025/episode/8"
                       target="_blank"
                     >
                       <div
@@ -3140,13 +3160,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/WEB-DL"
+                          href="https://jinwoostream.netlify.app/properties/quality/WEB-DL"
                           target="_blank"
                         >
                           <li>WEB-DL</li>
@@ -3154,7 +3174,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/3578/devil-may-cry-2025/episode/8"
+                          href="https://jinwoostream.netlify.app/anime/3578/devil-may-cry-2025/episode/8"
                           target="_blank"
                         >
                           <h5>Devil May Cry (2025) <i class="d-none"></i></h5>
@@ -3168,7 +3188,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3583/katainaka-no-ossan-kensei-ni-naru/episode/1"
+                      href="https://jinwoostream.netlify.app/anime/3583/katainaka-no-ossan-kensei-ni-naru/episode/1"
                       target="_blank"
                     >
                       <div
@@ -3179,13 +3199,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3193,7 +3213,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/3583/katainaka-no-ossan-kensei-ni-naru/episode/1"
+                          href="https://jinwoostream.netlify.app/anime/3583/katainaka-no-ossan-kensei-ni-naru/episode/1"
                           target="_blank"
                         >
                           <h5>
@@ -3210,7 +3230,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3391/around-40-otoko-no-isekai-tsuuhan/episode/13"
+                      href="https://jinwoostream.netlify.app/anime/3391/around-40-otoko-no-isekai-tsuuhan/episode/13"
                       target="_blank"
                     >
                       <div
@@ -3221,13 +3241,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3235,7 +3255,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/3391/around-40-otoko-no-isekai-tsuuhan/episode/13"
+                          href="https://jinwoostream.netlify.app/anime/3391/around-40-otoko-no-isekai-tsuuhan/episode/13"
                           target="_blank"
                         >
                           <h5>
@@ -3259,7 +3279,7 @@
                 <div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru"
+                      href="https://jinwoostream.netlify.app/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru"
                       target="_blank"
                     >
                       <div
@@ -3270,13 +3290,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3284,7 +3304,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru"
+                          href="https://jinwoostream.netlify.app/anime/3503/saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru"
                           target="_blank"
                         >
                           <h5>
@@ -3301,7 +3321,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/2177/dead-mount-death-play-part-2"
+                      href="https://jinwoostream.netlify.app/anime/2177/dead-mount-death-play-part-2"
                       target="_blank"
                     >
                       <div
@@ -3312,13 +3332,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3326,7 +3346,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/2177/dead-mount-death-play-part-2"
+                          href="https://jinwoostream.netlify.app/anime/2177/dead-mount-death-play-part-2"
                           target="_blank"
                         >
                           <h5>
@@ -3342,7 +3362,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/3351/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow"
+                      href="https://jinwoostream.netlify.app/anime/3351/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow"
                       target="_blank"
                     >
                       <div
@@ -3353,13 +3373,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3367,7 +3387,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/3351/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow"
+                          href="https://jinwoostream.netlify.app/anime/3351/ore-dake-level-up-na-ken-season-2-arise-from-the-shadow"
                           target="_blank"
                         >
                           <h5>
@@ -3384,7 +3404,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/1906/otonari-ni-ginga"
+                      href="https://jinwoostream.netlify.app/anime/1906/otonari-ni-ginga"
                       target="_blank"
                     >
                       <div
@@ -3395,13 +3415,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3409,7 +3429,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/1906/otonari-ni-ginga"
+                          href="https://jinwoostream.netlify.app/anime/1906/otonari-ni-ginga"
                           target="_blank"
                         >
                           <h5>Otonari ni Ginga <i class="d-none"></i></h5>
@@ -3423,7 +3443,7 @@
                   </div>
                   <div class="product__sidebar__comment__item">
                     <a
-                      href="https://v6.jinwoostream.run/anime/1638/bungou-stray-dogs-4th-season"
+                      href="https://jinwoostream.netlify.app/anime/1638/bungou-stray-dogs-4th-season"
                       target="_blank"
                     >
                       <div
@@ -3434,13 +3454,13 @@
                     <div class="product__sidebar__comment__item__text">
                       <ul>
                         <a
-                          href="https://v6.jinwoostream.run/properties/type/TV"
+                          href="https://jinwoostream.netlify.app/properties/type/TV"
                           target="_blank"
                         >
                           <li>TV</li>
                         </a>
                         <a
-                          href="https://v6.jinwoostream.run/properties/quality/HD"
+                          href="https://jinwoostream.netlify.app/properties/quality/HD"
                           target="_blank"
                         >
                           <li>HD</li>
@@ -3448,7 +3468,7 @@
                       </ul>
                       <div class="comment__info">
                         <a
-                          href="https://v6.jinwoostream.run/anime/1638/bungou-stray-dogs-4th-season"
+                          href="https://jinwoostream.netlify.app/anime/1638/bungou-stray-dogs-4th-season"
                           target="_blank"
                         >
                           <h5>
@@ -3481,7 +3501,7 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="footer__logo">
-              <a href="https://v6.jinwoostream.run">
+              <a href="https://jinwoostream.netlify.app">
                 <img
                   alt="JinwooStream Logo"
                   decoding="async"
@@ -3495,19 +3515,19 @@
           <div class="col-lg-6">
             <div class="footer__nav">
               <ul>
-                <li><a href="https://v6.jinwoostream.run">Beranda</a></li>
+                <li><a href="https://jinwoostream.netlify.app">Beranda</a></li>
                 <li>
-                  <a href="https://v6.jinwoostream.run/anime?order_by=text"
+                  <a href="https://jinwoostream.netlify.app/anime?order_by=text"
                     >Daftar Anime</a
                   >
                 </li>
                 <li>
-                  <a href="https://v6.jinwoostream.run/properties"
+                  <a href="https://jinwoostream.netlify.app/properties"
                     >Daftar Properti</a
                   >
                 </li>
                 <li>
-                  <a href="https://v6.jinwoostream.run/schedule"
+                  <a href="https://jinwoostream.netlify.app/schedule"
                     >Jadwal Rilis</a
                   >
                 </li>
@@ -3531,7 +3551,7 @@
         <div class="search-close-switch"><i class="icon_close"></i></div>
         <div>
           <form
-            action="https://v6.jinwoostream.run/anime"
+            action="https://jinwoostream.netlify.app/anime"
             autocomplete="off"
             class="search-model-form"
             id="search-anime-form"
@@ -3647,5 +3667,7 @@
       integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
       src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
     ></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/slicknav-init.js"></script>
+</body>
 </html>
