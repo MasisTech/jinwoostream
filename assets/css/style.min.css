@@ -3828,17 +3828,19 @@ a:hover {
   }
 }
 
-/* Tampilkan di desktop/tablet */
+/* Tampilkan hanya di desktop/tablet */
 .desktop-only {
   display: inline-block !important;
+  vertical-align: middle;
+  gap: 8px;
 }
 
-/* Sembunyikan versi teks di desktop */
+/* Sembunyikan teks di desktop */
 .mobile-only {
   display: none !important;
 }
 
-/* Untuk layar kecil (mobile), atur ulang */
+/* Responsive untuk mobile */
 @media only screen and (max-width: 767px) {
   .desktop-only {
     display: none !important;
@@ -3846,6 +3848,9 @@ a:hover {
 
   .mobile-only {
     display: inline-block !important;
+    position: relative;
+    margin-top: 5px;
+    z-index: 999;
   }
 
   .mobile-only .dropdown {
@@ -3853,27 +3858,36 @@ a:hover {
     position: relative;
   }
 
+  .mobile-only .dropdown-toggle {
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
   .mobile-only .dropdown-menu {
     display: none;
     position: absolute;
-    background: #fff;
-    color: #000;
-    min-width: 140px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    background: #0b0c2a;
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+    padding: 10px 0;
+    border-radius: 4px;
   }
 
   .mobile-only .dropdown:hover .dropdown-menu {
     display: block;
   }
 
-  .mobile-only .dropdown-menu li a {
-    padding: 8px 16px;
+  .mobile-only .dropdown-menu a {
+    padding: 10px 20px;
     display: block;
-    color: #000;
+    color: #fff;
+    text-decoration: none;
   }
 
-  .mobile-only .dropdown-menu li a:hover {
+  .mobile-only .dropdown-menu a:hover {
     background-color: #1dd1a1;
     color: #fff;
   }
